@@ -23,7 +23,7 @@ const Pricing = ({ productList, addToCart }) => {
           {productList?.map((opric) => (
             <motion.div
               variants={fadeIn("up", "tween", opric.id / 6, 0.5)}
-              className="flex flex-col p-4 bg-white pric-shadow rounded-xl"
+              className="flex flex-col p-4 bg-white pric-shadow rounded-xl h-fit"
               key={opric.id}
             >
               <h2 className="text-[#FFF] cursor-pointer bg-[#013321] mb-5 text-[20px] font-[500] ftRoboto border-[1px] border-[#013321] py-3 px-4 rounded-lg">
